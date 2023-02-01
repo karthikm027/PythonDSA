@@ -84,5 +84,8 @@ def rotate(nums, k):
             current += 1
         print(nums)
         print(current)
+        start = l - (k%l)
+        while start < l:
+            nums[current], 
 
 rotate([1,2,3,4,5,6,7],3)
